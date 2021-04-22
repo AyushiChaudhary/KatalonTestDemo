@@ -17,3 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://lifecharger.org/')
+
+WebUI.click(findTestObject('Object Repository/OR2/Page_Life Charger   a new beginning/h1_Life Charger'))
+
+WebUI.click(findTestObject('Object Repository/OR2/Page_Life Charger   a new beginning/a_Books I am reading'))
+
